@@ -20,11 +20,11 @@
     overflow: hidden;
 }
 
-.btn_start, .btn_instructions{
+.btn__start, .btn_btn_instructions{
     color: #F25F5C;
 }
 
-.start:hover, .instructions:hover{
+.btn_start:hover, .btn_instructions:hover{
     color: #FFE066;
 
 }
