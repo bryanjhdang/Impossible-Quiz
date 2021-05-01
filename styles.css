@@ -1,0 +1,31 @@
+.main_title {
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+.main_button{
+    text-align: center;
+    margin-top: 360px;
+}
+
+.main_button{
+    border: 1px solid #F25F5C;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn_start, .btn_instructions{
+    color: #F25F5C;
+}
+
+.start:hover, .instructions:hover{
+    color: #FFE066;
+
+}
+
