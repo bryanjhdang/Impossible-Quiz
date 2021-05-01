@@ -2,6 +2,7 @@
 Team Single Brain Cell
 
 Members:
-Rina Ryu
-Lynn Nguyen
-Bryan Dang
+Rina Ryu, 
+Lynn Nguyen, 
+Bryan Dang, 
+Jerry Deng
