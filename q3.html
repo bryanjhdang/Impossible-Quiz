@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ImPoSsIbLe QuIz</title> 
+  <link href="question.css" rel="stylesheet" type="text/css">
+  <script defer scr ="app.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UAB-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+
+<audio id="myAudio">
+<source src="rickroll-mp3.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<div class = "main_title"><img src="images/q3.png" height="50" width ="50">
+</div>
+
+<div class = "container">
+
+  <div class="obama_block" style="margin: 0 auto;">
+    
+    <img src="images/q3_display1.png" height="85px" width="150px">
+    <a onclick="location.href='ending.html';"> <img src="images/q3_display2.png" height="85px" width="156px" style="margin-left:-1px"> </a>
+    <img src="images/q3_display3.png" height="85px" width="207px" style="margin-left:-1px">
+  
+  </div>
+
+  <div id="btn_answers" class="btn-grid">
+    <a class="btn" onclick="fail()"> Barack </a>
+    <a class="btn" onclick="fail()"> Care </a>
+    <a class="btn" onclick="fail()"> Dina </a> 
+    <a class="btn" onclick="fail()"> Obana </a>
+    </div>
+
+</div>
+
+<footer>
+    <center>
+      <a onclick="playAudio()">tEAM sINGLE bRAIN cELL 🧠 © coopy right 2o21</a> 
+    </center>
+  </footer>
+
+</body>
+
+<script>
+function fail(){
+  alert("really? You don't know Obama's last name? Shame. Time to restart 🤡");	
+  window.location.replace("index.html")
+}
+
+var x = document.getElementById('myAudio');
+
+function playAudio() {
+  x.play();
+}
+
+function pauseAudio() {
+  x.pause();
+}
+</script>
+
+</html>
