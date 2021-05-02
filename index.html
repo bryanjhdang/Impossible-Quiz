@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ScuffedHacks 2021</title> 
-    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>ImPoSsIbLe QuIz</title> 
+    <link href="style.css" rel="stylesheet" type="text/css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UAB-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing</title>
+    <title>The Scuffed Impossible Quiz</title>
 </head>
 
 <body>
 
+<audio id="myAudio">
+  <source src="rickroll-mp3.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 <div class = "main_title">
-    <h1 >Impossible Quiz!</h1>
+    <img src="images/title.png" height="200" width="750">
 </div>
 
 <div class = "main_button">
-    <button class = "btn_start">Start</button>
-    <button class = "btn__instructions">Instructions</button>
+    <a class = "btn_start" href="q1.html">Start</a>
+    <a class = "btn_instructions" href="instructions.html"> Instructions </a>
 </div>
-<!-- Heloooooooo you will never see this message? :smad: -->
+
+<div class = "clown_poyo">
+  <center>
+    <img src="images/clown_poyo.png">
+  </center>
+</div>
+
+  <footer>
+    <center>
+      <a onclick="playAudio()">tEAM sINGLE bRAIN cELL 🧠 © coopy right 2o21</a> 
+    </center>
+  </footer>
 </body>
+
+<script>
+  var x = document.getElementById('myAudio');
+  
+  function playAudio() {
+    x.play();
+  }
+
+  function pauseAudio() {
+    x.pause();
+  }
+</script>
+
 </html>

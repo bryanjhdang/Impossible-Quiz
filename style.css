@@ -1,0 +1,65 @@
+html,body {
+  background-color: #70C1B3;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_title {
+    text-align: center;
+    background-color: rgb(70, 184, 233);
+    font-size: 30px;
+}
+
+.main_button{
+  text-align: center;
+}
+
+.btn_start, .btn_instructions{
+  font-size: 18px;
+  font-weight: bold;
+  background: #F25F5C;
+  text-align: center;
+  margin-top: 360px;
+  
+  padding: 20px;
+  
+  cursor: pointer;
+  margin: 20px;
+  transition: 8s;
+  position: relative;
+  overflow: hidden;
+}
+
+a:link, a:visited {
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  color: #FFE066;
+}
+
+/* NOTE: Want to place at bottom center*/
+.copywrite{
+  text-align: center;
+}
+
+footer {
+  margin: 15px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.clown_poyo{
+  position: fixed;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, 0%)
+}
