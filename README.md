@@ -1,4 +1,6 @@
-# ScuffedHacks-2021
+# A Scuffed Impossible Quiz
+
+
 Team Single Brain Cell
 
 Members:
